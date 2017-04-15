@@ -1,0 +1,11 @@
+[package]
+name = "rust-algoritms"
+version = "0.1.0"
+authors = ["Erich Cordoba <erich.cm@yandex.com>"]
+
+[[bin]]
+name = "bubble-sort"
+path = "src/bubble-sort.rs"
+
+[dependencies]
+rand = "0.3"
