@@ -26,10 +26,10 @@ fn sort(myvec: &mut Vec<i32>) {
             }
         }
     }
-    return
+    return;
 }
 
-fn main () {
+fn main() {
     println!("Bubble sort!");
     let mut myvec = create_random_vector(10);
     println!("Sorting {:?}", myvec);
